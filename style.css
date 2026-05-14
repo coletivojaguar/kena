@@ -6,7 +6,7 @@
   box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+font-family: 'Montserrat', sans-serif;
 }
 
 /* Prevent font size inflation */
@@ -79,7 +79,7 @@ textarea:not([rows]) {
 .primeira-galeria,  .grid-img, .sobre, footer{
         width: min(95%, 1200px);
     margin-inline: auto;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     
     img{
         height: 90svh;
@@ -93,7 +93,7 @@ textarea:not([rows]) {
 header{
     background-color: black;
     color: white;
-    margin: 0;
+
     height: 40svh;
     display: flex;
     justify-content: space-between;
