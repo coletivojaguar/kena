@@ -121,8 +121,9 @@ header{
     align-items: center;
     gap: 1em;
     border-radius: .5em;
+    margin-bottom: 6em;
        p{
-        -min-height: fit-content;
+        min-height: fit-content;
         font-size: clamp(1.5rem, 5vw, 2rem);
         line-height: 1.2;
         padding: 3em .5em;
@@ -139,6 +140,8 @@ header{
     }
 
 }
+
+
 
 .grid-img{
     width: 100%;
@@ -157,7 +160,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
     align-items: center;
     margin-top: 4em;
-
+    padding: 2em 0;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 
@@ -165,21 +168,18 @@ header{
 
     h3{
         font-size: clamp(2.5rem, 5vw, 4rem);
-        border-bottom: 2px solid black;
-        background-color: black;
-        min-height: 5em;
+
+        background-color: rgb(255, 255, 255);
+        min-height: 3em;
         height: 100%;
-        color: white;
-        display: grid;
-        align-items: center;
-        padding-left: .5em;
+  
+ 
     
 
 
     }
 
     p{
-        padding: 1em;
         font-size: clamp(1.5rem, 4vw, 2.4rem);
         line-height: 1.2;
     }
